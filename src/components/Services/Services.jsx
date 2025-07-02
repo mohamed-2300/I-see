@@ -84,8 +84,9 @@ const Services = () => {
         Our Features
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8">
-          {ServicesData.map((service) => (
+          {ServicesData.map((service, idx) => (
             <motion.div
+              key={idx}
               variants={SlideLeft(service.delay)}
               initial="initial"
               whileInView={"animate"}

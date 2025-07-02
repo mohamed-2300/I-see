@@ -28,7 +28,7 @@ const Banner3 = () => {
         </div>
         <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
           <h1 className="text-4xl font-bold !leading-snug">What We Do</h1>
-          <p className="text-dark2">
+          <div className="text-dark2">
             Our app is designed to:{" "}
             <ul>
               <li>
@@ -48,7 +48,7 @@ const Banner3 = () => {
                 <span className="text-secondary">advanced AI</span>.
               </li>
             </ul>
-          </p>
+          </div>
         </div>
         <div className="text-center md:text-left space-y-4 lg:max-w-[450px]">
           <h1 className="text-4xl font-bold !leading-snug">Why Choose Us</h1>
