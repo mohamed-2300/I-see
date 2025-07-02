@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const Banner3 = () => {
   return (
-    <section className="container">
+    <section id="about" className="container">
         <h1 className="text-4xl font-bold !leading-snug">About Us</h1>
       <motion.div
         initial={{ opacity: 0, x: -50 }}
